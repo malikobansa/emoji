@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+#emoji {
+    font-size: 2rem;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#emoji:hover {
+    background-color: #45a049;
+}
+
+#emuser {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#emuser span {
+    cursor: pointer;
+    padding: 0 10px;
+    transition: transform 0.2s ease;
+}
+
+#emuser span:hover {
+    transform: scale(1.2);
+}
+
+#score {
+    font-size: 1.5rem;
+    color: #333;
+}
+
